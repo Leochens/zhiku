@@ -1,0 +1,111 @@
+<?php 
+require 'include/init.php';
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>智库</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body> 
+<?php include ROOT.'header.php'; ?>
+<div class="content">
+    <div class="wraper">
+        <div class="banner">
+<div id="box">
+            <ul id="mylist">
+                <li><a><img width="430" height="300" src="http://www.chinathinktanks.org.cn/upload/201712/PS6P0PXJHU58.jpg"></a></li>
+                <li><a><img width="430" height="300" src="http://images.china.cn/attachement/jpg/site1000/20171215/f44d307d91771b9da3cc04.jpg"></a></li>
+                <li><a><img width="430" height="300" src="http://www.chinathinktanks.org.cn/upload/201712/YON54KQ8QJOV.jpg"></a></li>
+                <li><a><img width="430" height="300" src="http://www.chinathinktanks.org.cn/upload/201711/SPZHPFLX1EB1.jpg"></a></li>
+                <li><a><img width="430" height="300" src="http://www.chinathinktanks.org.cn/upload/201712/YON54KQ8QJOV.jpg"></a></li>
+            </ul>
+            <ul id="underNum">
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+            </ul>
+        </div>        
+            
+        </div>
+        <div class="infos">
+            <ul>
+                <li>001</li>
+                <li>002</li>
+                <li>003</li>
+                <li>004</li>
+                <li>005</li>
+            </ul>
+        </div>
+    </div>
+    <div class="article">
+        <div class="kinds">
+            <table class="kinds_table">
+                    <td>
+                        <div class="kinds_card">
+                            <h3>类目一</h3>
+                            <ul>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="kinds_card">
+                            <h3>类目二</h3>
+                            <ul>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="kinds_card">
+                            <h3>类目三</h3>
+                            <ul>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="kinds_card">
+                            <h3>类目四</h3>
+                            <ul>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="kinds_card">
+                            <h3>类目五</h3>
+                            <ul>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                                <li>类目信息类目信息</li>
+                            </ul>
+                        </div>
+                    </td>
+              
+            </table>
+        </div>
+        <div class="hot"></div>
+    </div>
+    <div class="orther">
+        
+    </div>
+</div>
+
+<?php include ROOT.'footer.php'; ?>
+<script src="js/index.js"></script>
+
+</body>
+</html>

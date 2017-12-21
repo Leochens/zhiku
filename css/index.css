@@ -1,0 +1,149 @@
+textarea,div,ul,li,table,tr,td,h1,h2,h3,h4,a,h5,h6,input,button,div,p,span,ul,li,table,th,td,tr,label{
+        border: none;
+        font-family: 'microsoft Yahei';
+        margin: 0;
+        padding: 0;
+        font-weight: 300; 
+        text-decoration: none;
+        outline: none; 
+        list-style: none;
+}
+*:after,*:before{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+a{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background: #eee;
+    min-height: 800px;
+    width: 1200px;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+.content:after{
+    /*浮动问题解决*/
+    content: "";
+    display: table;
+    clear: both;
+}
+.content .article{
+    float: left;
+}
+.content .orther{
+    float: right;
+}
+.content .wraper::after{
+    content: "";
+    display: table;
+    clear: both;
+    }
+.content .banner{
+    width:430px;
+    height: 300px;
+    float: left;
+    margin: 15px 0;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.content .infos{
+
+    background: #ddd;
+    height: 300px;
+    width: 750px;
+    float: right;
+    margin: 15px 0;
+    padding: 10px 0 0 0;
+    border-radius: 10px;
+
+}
+.content .kinds{
+    height: 900px;
+    width: 430px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.kinds .kinds_table td{
+    float: left;
+    margin: 10px;
+
+}
+.kinds .kinds_table .kinds_card{
+        width: 360px;
+        height: 150px;
+        padding: 3px 6px;
+
+        background: #dde;
+}
+.kinds .kinds_table .kinds_card ul{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.content .orther{
+    height:900px;
+    width: 750px;
+    border-radius: 10px;
+    background: #ddd;
+}
+
+span.this{
+    color: blue;
+}
+
+
+/****/
+#box{  
+    width: 430px;  
+    height: 300px;  
+    overflow: hidden;  
+    position: relative;  
+    background-color: orange;  
+    border-radius: 10px;
+}  
+#box #mylist{  
+    position: absolute;  
+    width: 2450px;  
+    left: 0px;  
+    top: 0px;  
+    list-style-type: none;  
+}  
+#box ul li{  
+    float: left;  
+}  
+ul#underNum{  
+    position: absolute;  
+    right: 10px;  
+    bottom: 10px;  
+    background-color: rgba(0,0,255,0.3);  
+    width: 150px;  
+    height: 30px;  
+    list-style-type: none;  
+}  
+ul#underNum a{
+    
+    color: white;
+}
+ul#underNum li{  
+    text-align: center;  
+    width: 30px;  
+    height: 30px;  
+    line-height: 30px;  
+      
+}  
+ul#underNum li a{  
+    text-decoration: none;  
+}  
+/****/
+

@@ -1,0 +1,23 @@
+.foot{
+    width: 100%;
+    height: 200px;
+    background: #0ff;
+    text-align: center;
+}
+
+.foot .links table{
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+
+}
+.foot .links table td{
+    margin: 16px auto;
+}
+.foot .copyright{
+    text-align: center;
+}
+.foot .copy{
+    margin :0px auto;
+    width: 50%;
+}
