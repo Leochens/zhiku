@@ -28,3 +28,10 @@
     width: 60%;
     margin: 0 auto;
 }
+/*兼容手机*/
+@media screen and (max-width: 1080px) {
+    .foot{
+        width: 1250px;
+    }
+
+}

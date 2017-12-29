@@ -160,4 +160,9 @@ body{
     background-color: #cdf;
 }
 /* -------------菜单css代码----------end---------- */
-
+@media screen and (max-width: 1080px) {
+    .menuDiv,.header{
+        width: 1250px;
+    }
+    
+}
