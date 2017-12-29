@@ -1,0 +1,17 @@
+@import url('src/animate.css');
+
+.content   {
+    background: #eee;
+    height: 800px;
+    width: 1400px;
+    margin: 15px auto;
+    padding: 15px;
+}
+.tab-padding{
+    padding: 10px;
+}
+.tab-padding p{
+    line-height: 20px;
+    width: 80%;
+    margin: 100px auto;
+}

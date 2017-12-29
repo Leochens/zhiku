@@ -1,14 +1,17 @@
 .foot{
     width: 100%;
     height: 200px;
-    background: #0ff;
+    background: #eee;
     text-align: center;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .foot .links table{
     width: 100%;
     height: 70%;
     padding: 10px;
+    text-align: center;
 
 }
 .foot .links table td{
@@ -20,4 +23,8 @@
 .foot .copy{
     margin :0px auto;
     width: 50%;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
 }

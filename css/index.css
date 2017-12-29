@@ -22,32 +22,32 @@ body{
     padding: 0;
 }
 
-.content{
+.index_content{
     background: #eee;
     min-height: 800px;
-    width: 1200px;
+    width: 1250px;
     margin: 15px auto;
     padding: 15px;
 
 }
-.content:after{
+.index_content:after{
     /*浮动问题解决*/
     content: "";
     display: table;
     clear: both;
 }
-.content .article{
+.index_content .article{
     float: left;
 }
-.content .orther{
+.index_content .orther{
     float: right;
 }
-.content .wraper::after{
+.index_content .wraper::after{
     content: "";
     display: table;
     clear: both;
     }
-.content .banner{
+.index_content .banner{
     width:430px;
     height: 300px;
     float: left;
@@ -56,7 +56,7 @@ body{
     border-radius: 10px;
 }
 
-.content .infos{
+.index_content .infos{
 
     background: #ddd;
     height: 300px;
@@ -67,7 +67,7 @@ body{
     border-radius: 10px;
 
 }
-.content .kinds{
+.index_content .kinds{
     height: 900px;
     width: 430px;
     background: #ddd;
@@ -91,7 +91,7 @@ body{
     padding-left: 15px;
     padding-top: 15px;
 }
-.content .orther{
+.index_content .orther{
     height:900px;
     width: 750px;
     border-radius: 10px;
